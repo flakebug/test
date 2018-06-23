@@ -1,0 +1,124 @@
+﻿<!--
+##
+## Program Name :
+##     Cal^2
+## Author :
+##     Liang
+## Organization :
+##     CTCI
+## Initial Release Date :
+##     2017/12/18
+## Description :
+##     Calculate the allowance value during calibration
+## Version :
+##     0.3 - 2018/06/22
+##         Change the jquery from global CDN to local
+##     0.2 - 2018/02/15
+##         Change the jquery from local to global CDN
+##         Modify the instrument accuracy default
+##     0.1 - 2017/12/18
+##         Initial release
+##
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="./scripts/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+	<script src="./scripts/jquery_mobile/jquery-1.11.1.min.js"></script>
+	<script src="./scripts/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="./resource/icon/calculator.png">
+    <link rel="apple-touch-startup-image" href="./resource/icon/calculator.png">
+    <meta name="apple-mobile-web-app-title" content="">
+    <link rel="shortcut icon" href="./resource/icon/calculator.png">
+    <title></title>
+
+</head>
+
+<body>
+
+    <!--first page -->
+    <div data-role="page" id="page_main">
+        <div data-role="header">
+            <h1>Cable List, 2018/06/23</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page_main" class="ui-btn-active ui-state-persist">Data</a>
+                    </li>
+
+                    <li>
+                        <a href="#page_about" id="navResult" name="navResult">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navbar -->			
+        </div>
+        <div data-role="content">
+			<ul data-role="listview" data-inset="true">
+			    <li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+			    <li><a href="index.html">
+			    <h2>Stephen Weber</h2>
+			    <p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+			    <p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+			        <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+			    </a></li>
+			    <li><a href="index.html">
+			    <h2>jQuery Team</h2>
+			    <p><strong>Boston Conference Planning</strong></p>
+			    <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+			        <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+			    </a></li>
+			    <li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+			    <li><a href="index.html">
+			    <h2>Avery Walker</h2>
+			    <p><strong>Re: Dinner Tonight</strong></p>
+			    <p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait!</p>
+			        <p class="ui-li-aside"><strong>4:48</strong>PM</p>
+			    </a></li>
+			</ul>
+
+        </div>
+        <!-- End of content -->
+        <div data-role="footer">
+            <h1>Liang, CTCI Construction</h1>
+        </div>
+        <!-- End of footer -->
+	</div>
+    <!-- End of page -->
+
+    <div data-role="page" id="page_about">
+        <div data-role="header">
+            <h1>About</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page_main" >Data</a>
+                    </li>
+
+                    <li>
+                        <a href="#page_about" id="navResult" name="navResult" class="ui-btn-active ui-state-persist">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navbar -->			
+        </div>
+        <div data-role="content">
+			Liang
+        </div>
+        <!-- End of content -->
+        <div data-role="footer">
+            <h1>Liang, CTCI Construction</h1>
+        </div>
+        <!-- End of footer -->
+	</div>
+    <!-- End of page -->
+
+
+
+
+</body>
+
+</html>
